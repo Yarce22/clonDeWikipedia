@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+    font-size: 3.2rem;
+    font-family: Linux Libertine,Hoefler Text,Georgia,Times New Roman,Times,serif;
+}
+
+.title p {
+    font-size: 1.5rem;
+}
+
+#logo {
+    position: relative;
+    width: 54.6rem;
+    height: 32.5rem;
+    margin: 0 auto;
+}
+
+#logo img {
+    position: absolute;
+    top: 7rem;
+    left: 183px;
+    width: 200px;
+    height: 18.3rem;
+}
+
+#logo .lang-tack {
+    position: absolute;
+    text-align: center;
+    width: 15.6rem;
+    height: 4.5rem;
+    line-height: 1.5;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Lato,Helvetica,Arial,sans-serif;
+}
+
+#logo .lang-tack strong{
+    display: block;
+    color: #36c;
+    font-size: 1.5rem;
+}
+
+#logo .lang-tack small {
+    color: #54595d;
+    font-size: 1.2rem;
+    margin-top: 0.8rem
+    
+}
+
+#logo .lang1 {
+    top: 5%;
+    left: 60%;
+}
+
+#logo .lang2 {
+    top: 5%;
+    left: 10%
+}
+
+#logo .lang3 {
+    top: 25%;
+    left: 2%;
+}
+
+#logo .lang4 {
+    top: 25%;
+    left: 70%;
+}
+
+#logo .lang5 {
+    top: 45%;
+    left: 0%;
+}
+
+#logo .lang6 {
+    top: 45%;
+    left: 73%;
+}
+
+#logo .lang7 {
+    top: 65%;
+    left: 2%;
+}
+
+#logo .lang8 {
+    top: 65%;
+    left: 70%;
+}
+
+#logo .lang9 {
+    top: 85%;
+    left: 10%;
+}
+
+#logo .lang10 {
+    top: 85%;
+    left: 60%;
+}
+
+#searchButton {
+    align-items: center;
+    margin: 0 auto;
+    width: 54rem;
+}
